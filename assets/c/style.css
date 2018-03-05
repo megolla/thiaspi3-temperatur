@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(0,0,0,.03);
+  font: 100%/1.5 'Roboto', Verdana, sans-serif;
+  width: 1024px;
+  margin: 2% auto;
+}
+
+
+canvas {
+  display: block;
+  box-shadow: 0 0 2px 1px rgba(0,0,0,.05);
+  margin: 1em 0;
+}
+
+h1 {
+  font-size: 100%;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px dotted;
+}
+
+a:hover {
+  color: red;
+}
+
+nav ul {
+  font-size:85%;
+  list-style-type: none;
+  overflow: auto;
+}
+
+nav li {
+  float: left;
+}
+
+nav li:after {
+  content: "|";
+  padding: 0 .3em;
+}
+
+nav li:last-of-type:after{
+  content: "";
+  padding: 0;
+}

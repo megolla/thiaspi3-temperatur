@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(0,0,0,.03);
+  font: 100%/1.5 'Roboto', Verdana, sans-serif;
+  width: 1024px;
+  margin: 2% auto;
+}
+
+
+canvas {
+  display: block;
+  box-shadow: 0 0 2px 1px rgba(0,0,0,.05);
+}
+
+h1 {
+  font-size: 100%;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px dotted rgba(0,0,0,.3);
+}
+
+a:hover {
+  color: red;
+}
